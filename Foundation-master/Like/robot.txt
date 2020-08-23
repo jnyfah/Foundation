@@ -1,0 +1,11 @@
+User-agent:*
+
+Disallow:/causes/
+Disallow:/connect/
+Disallow:/blog/
+
+Noindex:/causes/
+Noindex:/connect/
+Noindex:/blog/
+
+Allow:
