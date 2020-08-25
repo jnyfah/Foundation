@@ -228,11 +228,104 @@ ul.inline-list li a:hover {
 
 }
 
+.card{
+	border: none;
+}
 .card-horizontal img{
  width: 120px;
  height:120px;
 }
 
+
+
+
+
+
+.owl-carousel .owl-item img {
+    width: auto;
+    display: inline-block;
+    transform-style: unset !important;
+    -webkit-transform-style: unset !important;
+    -o-transform-style: unset !important;
+    -ms-transform-style: unset !important;
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+}
+img {
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    color: #404040;
+}
+.team-block.team-v2 {
+    text-align: center;
+}
+
+
+
+
+
+
+.team-block.team-v2 {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    text-align: center;
+position: relative;
+}
+
+
+
+.team-block.team-v2 .team-image {
+    position: relative;
+    background: transparent;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.team-block.team-v2 {
+    text-align: center;
+}
+
+.team-block.team-v2 .team-content {
+    background: transparent;
+    position: relative;
+    text-align: center;
+}
 
 /* Home Banner Area css
 ============================================================================================ */
@@ -698,20 +791,22 @@ ul.inline-list li a:hover {
 	
 }
 .owl-theme .owl-controls{
-    margin-top: 30px;
+    margin-top: -200px;
+	margin-bottom: 100px;
 }
 .owl-theme .owl-controls .owl-page span{
     width: 32px;
     height: 10px;
     background: #fff;
     border: 2px solid #007bff;
-    margin: 5px;
+    margin: 1px;
     opacity: 1;
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background: #007bff;
     border-color: #007bff;
+	 margin-top: 2px;
 }
     .pic img{
         width: 100px !important;
@@ -1740,7 +1835,7 @@ body{
 {
 	top: 85%;
 }	
-.carousel-caption h3
+.h3
 {
 	font-size: 30px;
 	font-weight: 400;
