@@ -40,6 +40,7 @@
       <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link href = "https://fonts.googleapis.com/css?family=Pacifico" rel = "stylesheet">
    </head>
    <body>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top navbar-offcanvas">
@@ -56,7 +57,7 @@
                   <a class="nav-link" href="causes.html">OUR WORK</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">BLOG</a>
+                  <a class="nav-link" href="https://stories.like-foundation.com/">OUR STORIES</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="connect.html">CONTACT US</a>
@@ -94,6 +95,8 @@
          .home-inner
          {
          background-image: url(img/2.jpg);
+		 
+		 
          animation: slide 15s infinite;
          }
          @keyframes slide {
@@ -107,6 +110,15 @@
          background-image: url(img/african_mum.jpg);
          }
          }
+		 .color-overlay
+		 {
+		 
+		 width:100%;
+		 height:100%;
+		 background:#000;
+		 opacity:.3;
+		 position: absolute;
+		 }
          .caption
          {
          width:100%;
@@ -115,19 +127,32 @@
          color:white;
          top:60%;
          }
+		 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+		 
          .caption h3{
-         font-size:2rem;
-         font-family:rowdy;
-         ]
+         font-size:60px;
+		 top:-70px;
+		 position:relative;
+		 
+         font-family: "Gaegu", cursive;
+         }
+		 
+		 @media (max-width: 992px) {
+	.caption h3{
+  font-size:30px;
+  top:-30px;
+}
       </style>
       <div class = "landing">
          <div class = "home-wrap">
             <div class = "home-inner"></div>
+			 <div class = "caption text-center">
+         <h3> Bringing Succour to the less priviledged</h3>
+      </div>
+	  <div class="color-overlay"></div>
          </div>
       </div>
-      <div class = "caption text-center">
-         <h3> Bringing Succor to the less priviledged</h3>
-      </div>
+     
       <!--================donation Area =================-->
       <div class="donation_area">
          <div class="container">
@@ -219,21 +244,21 @@
                <div class="col-lg-4">
                   <div class="feature_item">
                      <i class="lnr lnr-earth"></i>
-                     <h4 href = "#">Sponsorship</h4>
+                     <h4><a href = "donate.html">Sponsorship</a></h4>
                      <p>Together we can do more, make a difference in the life of a child today. Support a child</p>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="feature_item">
                      <i class="lnr lnr-gift"></i>
-                     <h4 href = "#">Donate Amount</h4>
+                     <h4> <a href = "donate.html">Donate Amount </a></h4>
                      <p>Financial resources have been an important driving force that convert these dreams to realities.</p>
                   </div>
                </div>
                <div class="col-lg-4">
                   <div class="feature_item">
                      <i class="lnr lnr-hand"></i>
-                     <h4 href = "#">Become a Volunteer</h4>
+                     <h4> <a href = "volunteer.html">Become a Volunteer </a></h4>
                      <p>Be a part of our team of volunteers and participate in our various outreaches at grassroot level.</p>
                   </div>
                </div>
@@ -244,10 +269,30 @@
       <section class="event_area p_120">
          <div class="container">
             <div class="main_title">
-               <h2>Upcoming Programs</h2>
-               <p> Be the change you wish to see</p>
+               <h2>Latest Campaigns</h2>
+               
             </div>
             <div class="event_slider owl-carousel">
+			   <div class="item">
+                  <div class="event_item">
+                     <div class="media">
+                        <div class="d-flex">
+                           <img src="img/event/like kids event 3.jpg" alt="Lets initiate kids education">
+                        </div>
+                        <div class="media-body">
+                           <a>
+                              <h4>Register a Child in School (RACIS)</h4>
+                           </a>
+                           <p>Join us to hand over the key to success to one more child, let's make free education a reality.</p>
+						   </br>
+						  <div class = "container" style = "width: 150px; height:400px;">
+						  <a href="donate.html" class="main_bt" >Donate Now</a>
+						  </div>
+                        </div>
+						  
+                     </div>
+                  </div>
+               </div>
                <div class="item">
                   <div class="event_item">
                      <div class="media">
@@ -255,31 +300,19 @@
                            <img src="img/event/LIKE kid swimming.jpg" alt="Lets meet a need">
                         </div>
                         <div class="media-body">
-                           <a href="#">25th October, 2020</a> 
-                           <a href="#">
-                              <h4>Let's meet a need (LMAN)</h4>
+                           
+                              <h4>Let's Meet A Need (LMAN)</h4>
                            </a>
-                           <p>Spread love everywhere you go. A little progress each day adds up to big results.</p>
+                           <p>Together with LIKE, LMAN is set to spread love everywhere. A little progress each day adds up to big results.</p>
+						   </br>
+						  <div class = "container" style = "width: 150px; height:400px;">
+						  <a href="donate.html" class="main_bt" >Join Us</a>
+						  </div>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="item">
-                  <div class="event_item">
-                     <div class="media">
-                        <div class="d-flex">
-                           <img src="img/event/like kids event 3.jpg" alt="Lets initiate kids education">
-                        </div>
-                        <div class="media-body">
-                           <a href="#">10th September, 2020</a>
-                           <a href="#">
-                              <h4>Register a Child in School (RACIS)</h4>
-                           </a>
-                           <p>Hand over the key to success to one more child. Let's make free education a reality.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+            
                <div class="item">
                   <div class="event_item">
                      <div class="media">
@@ -287,11 +320,14 @@
                            <img src="img/event/like kids event 2.jpg" alt="youths and empowerment"> 
                         </div>
                         <div class="media-body">
-                           <a href="#">3rd November, 2020</a>
-                           <a href="#">
+                           
                               <h4>Housing for the Underpriviledged Family</h4>
                            </a>
-                           <p>Bringing succour to the underprivileged. change something today and make tomorrow better</p>
+                           <p>Join us to bring succour to the underprivileged, change something today and make tomorrow better</p>
+						   </br>
+						  <div class = "container" style = "width: 150px; height:400px;">
+						  <a href="volunteer.html" class="main_bt" >Donate Now</a>
+						  </div>
                         </div>
                      </div>
                   </div>
@@ -306,7 +342,7 @@
                <div class="col-md-6 col-lg-4">
                   <h3 class="heading-section">About Us</h3>
                   <p class="mb-5">LIKE Foundation is a volunteer driven Non-Governmental Organization that is focused around comunity intervention, youth empowerment and finding the best sustainable solution to provide free education for children and young people.</p>
-                  <p><a href="#" class="main_btn " >Join / Volunteer</a></p>
+                  <p><a href="volunteer.html" class="main_btn " >Join / Volunteer</a></p>
                </div>
                <div class="col-md-6 col-lg-4">
                   <h3 class="heading-section">Navigation Links</h3>
