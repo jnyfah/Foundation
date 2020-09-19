@@ -79,8 +79,8 @@
                   </li>
                   <li>
                      </br>
-                     <button type="button" class="main_btn" style = "margin:2px;" >Donate</button>
-                     <button class="sub_btn" style = "margin:2px;" >Volunteer</button>
+                     <a type="button" class="main_btn" style = "margin:2px;" href= "donate.html" >Donate</a>
+                     <a class="sub_btn" style = "margin:2px;" href = "volunteer.html">Volunteer</a>
                   </li>
                   <li>
                      </br>
@@ -315,7 +315,7 @@
                </div>
             </div>
          </div>
-      </footer>
+  </footer>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js'></script>
       <script src="js/jquery-3.2.1.min.js"></script>
@@ -337,9 +337,49 @@
       <script src="js/jquery.validate.min.js"></script>
       <script src="js/contact.js"></script>
       <!--gmaps Js-->
-     
-      
-      
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+      <script src="js/gmaps.min.js"></script>
+      <script src="js/theme.js"></script>
+      <script type="text/javascript">
+         $('#counter-block').ready(function(){
+               
+             $('.coffee').animationCounter({
+               start: 0,
+               end: 6,
+               step: 1,
+               delay: 500,
+               
+             });
+         $('.coffee1').animationCounter({
+               start: 0,
+               end: 48,
+               step: 1,
+               delay: 100,
+               
+             });
+         $('.coffee2').animationCounter({
+               start: 0,
+               end: 25,
+               step: 1,
+               delay: 150,
+               
+             });
+         });
+      </script>
+      <script type="text/javascript">
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-36251023-1']);
+         _gaq.push(['_setDomainName', 'jqueryscript.net']);
+         _gaq.push(['_trackPageview']);
+         
+         (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+         
+      </script>
+      <script  src="js/script.js"></script>
    </body>
 </html>
 
